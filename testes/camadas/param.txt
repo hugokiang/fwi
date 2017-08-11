@@ -1,0 +1,14 @@
+camadas.bin            # nome do arquivo de velocidade
+350 200 10	       # dimensoes do grid nx ny h
+3000 0.001	       # numero de passos e dt	
+3		       # tipo da fonte
+5	               # frequencia maxima da wavelet de Ricker
+aquisicao	       # nome do arquivo de aquisicao	 	
+20		       # numero de elementos da borda pml
+4		       # ordem do operador derivada
+60		       # salva snapshots a cada 60 passos
+m0.dat           # nome do arquivo de  velocidades iniciais
+14                     # número de tiros
+20                     # número de iterações
+1500 		       # velocidade minima
+3000	               # velocidade maxima
